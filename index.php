@@ -1,4 +1,19 @@
 <?php
+
+$codebarre = 80054372;
+
+
+
+//
+
+//
+
+//
+
+echo "X_X___X_XX_XX____X_XXX_XXXX____X_X_X_X";
+
+
+
 const ELEMENTS = [
     'A' => [
         0 => "0001101", 1 => "0011001",
