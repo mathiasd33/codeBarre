@@ -1,3 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+    .flex{
+        display: flex;
+    }
+
+    .barreNoir{
+        padding-right: 2px;
+        padding-bottom: 20px;
+        backgroud-color:black;
+        width: 2px;
+        height: 20px;
+    }
+    .barreBlanche{
+        padding-right: 2px;
+        padding-bottom: 20px;
+        backgroud-color:white;
+        width: 2px;
+        height: 20px;
+    }
+</style>
+<div class="flex">
+    <div class="barreNoir"></div>
+    <div class="barreBlanche"></div>
+</div>
+
+</html>
+
 <?php
 
 
@@ -49,3 +79,6 @@ for ($i=4;$i<=7;$i++){
 $chaine .= "X_X";
 
 echo $chaine;
+?>
+
+
