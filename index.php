@@ -5,23 +5,27 @@
     .flex{
         display: flex;
     }
+    .flex2{
+        display: flex;
+    }
 
     .barreNoir{
         padding-right: 2px;
         padding-bottom: 20px;
-        backgroud-color:black;
+        background-color:black;
         width: 2px;
         height: 20px;
     }
     .barreBlanche{
         padding-right: 2px;
         padding-bottom: 20px;
-        backgroud-color:white;
+        background-color:white;
         width: 2px;
         height: 20px;
     }
 </style>
 <div class="flex">
+
     <div class="barreNoir"></div>
     <div class="barreBlanche"></div>
 </div>
@@ -78,7 +82,18 @@ for ($i=4;$i<=7;$i++){
 
 $chaine .= "X_X";
 
-echo $chaine;
+// $chaine;
+echo "<div class='flex2'>";
+for ($i=0; $i<strlen($chaine); $i++) {
+    if ($chaine[$i]=="X"){
+        echo "<div class='barreNoir'></div>";
+    }
+    else{
+        echo "<div class='barreBlanche'></div>";
+    }
+}
+echo "</div>"
+
 ?>
 
 
