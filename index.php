@@ -20,7 +20,7 @@ $tableauA= [
 
 ];
 
-$tableauB=[
+$tableauC=[
     0=>"XXX__X_",
     1=>"XX__XX_",
     2=>"XX_XX__",
@@ -34,9 +34,9 @@ $tableauB=[
 ];
 
 for ($i=0;$i<=3;$i++) {
-    echo $codebarre_split[$i];
+    echo $tableauA[$codebarre_split[$i]];
 }
 
 for ($i=4;$i<=7;$i++){
-    echo $codebarre_split[$i];
+    echo $tableauC[$codebarre_split[$i]];
 }
