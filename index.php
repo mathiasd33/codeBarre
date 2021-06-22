@@ -23,6 +23,7 @@
         width: 2px;
         height: 20px;
     }
+
 </style>
 <div class="flex">
 
