@@ -1,6 +1,9 @@
 <?php
 
-$codebarre = 30062948;
+
+$codebarre = "30062948";
+
+$codebarre_split = str_split($codebarre);
 
 
 $tableauA= [
@@ -30,5 +33,10 @@ $tableauB=[
     9=>"XXX_X__",
 ];
 
-echo $tableauA[3] . $tableauA[0] . $tableauA[0] . $tableauA[6] . $tableauB[2] . $tableauB[9] . $tableauB[4] . $tableauB[8] ;
+for ($i=0;$i<=3;$i++) {
+    echo $codebarre_split[$i];
+}
 
+for ($i=4;$i<=7;$i++){
+    echo $codebarre_split[$i];
+}
