@@ -30,5 +30,5 @@ $tableauB=[
     9=>"XXX_X__",
 ];
 
-echo $tableauA[]
+echo $tableauA[3] . $tableauA[0] . $tableauA[0] . $tableauA[6] . $tableauB[2] . $tableauB[9] . $tableauB[4] . $tableauB[8] ;
 
