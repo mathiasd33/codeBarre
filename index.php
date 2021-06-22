@@ -33,10 +33,19 @@ $tableauC=[
     9=>"XXX_X__",
 ];
 
+$chaine  = "";
+$chaine .= "X_X";
+
 for ($i=0;$i<=3;$i++) {
-    echo $tableauA[$codebarre_split[$i]];
+    $chaine .= $tableauA[$codebarre_split[$i]];
 }
 
+$chaine .= "_X_X_";
+
 for ($i=4;$i<=7;$i++){
-    echo $tableauC[$codebarre_split[$i]];
+    $chaine .= $tableauC[$codebarre_split[$i]];
 }
+
+$chaine .= "X_X";
+
+echo $chaine;
