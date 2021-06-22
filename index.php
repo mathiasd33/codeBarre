@@ -4,9 +4,10 @@ $codebarre = 30062948;
 
 
 $tableauA= [
-    0=>"__XX_XXX",
+    0=>"___XX_X",
     1=>"__XX__X",
-    2=>"_XXXX_X",
+    2=>"__X__XX",
+    3=>"_XXXX_X",
     4=>"_X___XX",
     5=>"_XX___X",
     6=>"_X_XXXX",
@@ -29,4 +30,5 @@ $tableauB=[
     9=>"XXX_X__",
 ];
 
+echo $tableauA[]
 
